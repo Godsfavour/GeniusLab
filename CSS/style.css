@@ -1,0 +1,150 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+        
+    }
+
+    @font-face {
+        font-family: ReadexPro;
+        src: url(Font/ReadexPro.ttf);
+    }
+
+
+body{
+    font-family: ReadexPro;
+    min-height: 100vh;
+    background-color: #B2F7D3;
+}
+
+
+.topbar{
+    display: flex;
+    color: #0296F6;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 5vh;
+}
+nav {
+    
+    background-color: white;
+    height: 12vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 100px;
+}
+
+.logodiv {
+    display: flex;
+    flex-direction: row;
+    gap: 5vh;
+    align-items: center;
+    color: #0296F6;
+}
+
+.navmenu {
+    display: flex;
+    gap: 2vh;
+    
+    list-style: none;
+}
+
+ul a {
+    text-decoration: none;
+    color: #0296F6;
+}
+
+.signupbutton {
+    text-decoration: none;
+    background-color: #0296F6;
+    color: white;
+    padding: 10px 16px;
+    border-radius: 10px;
+}
+
+.startfreetrial {
+    text-decoration: none;
+    color: #0296F6;
+    margin-left: 25px;
+}
+
+.searchbar {
+    border-radius: 25px;
+    border: 2px solid #0296F6;
+    width: 15vh;
+    height: 4vh;
+    text-align: center;
+    color: #0296F6;
+}
+
+
+
+.herosection{
+    height: 75vh;
+    background-color: #0296F6;
+    border-radius: 0px 0px 25px 25px;
+    display: flex;
+    align-items: center;
+    padding: 50px 70px;
+ 
+}
+
+.herosection h1 {
+    color: white;
+    justify-content: space-between;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+
+.herosection p {
+    font-size: 30px;
+    font-weight: lighter;
+    text-align: left;
+    
+}
+
+.heroleft{
+    
+    color: white;
+    padding: 50px;
+    
+}
+
+
+.buttondiv {
+    margin-top: 45px;
+}
+
+
+.getstarted {
+    text-decoration: none;
+    color: #0296F6;
+    background-color: white;
+    padding: 15px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+
+.learnmore{
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    padding: 15px 20px;
+    border-radius: 10px;
+
+}
+
+
+
+.heroright{
+    
+}
+
+.heroimage {
+    
+}

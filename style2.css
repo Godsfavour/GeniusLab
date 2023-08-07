@@ -1,0 +1,52 @@
+.topbar {
+    background-color: #B2F7D3;
+    color: #0296F6;
+}
+
+.navigationmenu {
+    background-color: white;
+}
+
+.hero {
+    background-color: #0296F6;
+    border-radius: 0px 0px 25px 25px;
+    padding: 50px 70px;
+}
+
+
+.downarrowbg {
+    /* display: inline; */
+    background-color: #B2F7D3;
+    padding: 20px 20px;
+    width: fit-content;
+    border-radius: 40px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -10px;
+
+}
+
+.downarrow {
+    font-size: 40px;
+    color:#0296F6;
+}
+
+.secondsection {
+    background-color: #B2F7D3;
+}
+
+.plansdiv {
+    background-color: #B2F7D3;
+    margin-top: 40px;
+    padding: 90px 5px;
+}
+
+.planscard {
+    background-color: #0296F6;
+    border-radius: 9px;
+    margin: 0px 15px;
+    padding: 50px 20px;
+    color: white;
+
+}

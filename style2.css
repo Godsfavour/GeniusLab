@@ -15,7 +15,7 @@
 
 
 .downarrowbg {
-    /* display: inline; */
+    display: inline;
     background-color: #B2F7D3;
     padding: 20px 20px;
     width: fit-content;
@@ -29,11 +29,12 @@
 
 .downarrow {
     font-size: 40px;
-    color:#0296F6;
+    color:#be5d3d;
 }
 
 .secondsection {
     background-color: #B2F7D3;
+    margin-top: 30px;
 }
 
 .plansdiv {
